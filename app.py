@@ -51,7 +51,7 @@ def model_predict(img_path, model):
     preds = model.predict(x)
     #print(preds[0][0])
     #preds=preds[0][0]
-    print(preds)
+    #print(preds)
     if preds<0.5:
         preds="NORMAL"
     else:    
